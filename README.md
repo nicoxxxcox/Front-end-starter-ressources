@@ -30,8 +30,7 @@ A curated list of needed tools when start a Front-end project
 
 * [Css layouts](https://csslayout.io/) - _Popular layouts and patterns made with CSS_
 * [Clever Grid system with grid](https://medium.com/@aparnamovva/12-modern-css-techniques-for-older-css-problems-df4d6d543fea#69cc) - _Replacing The Older Grid System_  ⬇️ :
-```
-css
+```css
 $minColumnWidth: 10rem;
 .grid {
   display: grid;
