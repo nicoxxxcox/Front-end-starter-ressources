@@ -24,4 +24,12 @@ A curated list of needed tools when start a Front-end project
 ## Methodology
 
 * [BEM](https://9elements.com/bem-cheat-sheet/) - _Even the most experienced CSS developers don't always find the right class name_
-* [Guide de code (par @mdo)](http://pixelastic.github.io/code-guide/) - _An HTML and CSS standard_
+* [Guide de code (par @mdo)](https://pixelastic.github.io/code-guide/) - _An HTML and CSS standard_
+
+## Layouts
+
+* [Css layouts](https://csslayout.io/) - _Popular layouts and patterns made with CSS_
+
+## Mobile
+
+* [Dealing with hover on mobile (video)](https://www.youtube.com/watch?v=uuluAyw9AI0) - _We can't hover on mobile devices, so what can we do about hover animations and other things that we might need to have on laptops and desktops?_
