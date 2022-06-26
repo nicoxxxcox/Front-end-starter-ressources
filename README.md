@@ -29,6 +29,24 @@ A curated list of needed tools when start a Front-end project
 ## Layouts
 
 * [Css layouts](https://csslayout.io/) - _Popular layouts and patterns made with CSS_
+* [Clever Grid system with grid](https://medium.com/@aparnamovva/12-modern-css-techniques-for-older-css-problems-df4d6d543fea#69cc) - _Replacing The Older Grid System_  ⬇️ :
+```
+css
+$minColumnWidth: 10rem;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($minColWidth, 1fr));
+  grid-gap: 2rem;& + .grid {
+    margin-top: $gridGap;
+  }
+}
+```
+It give : 
+
+![Alt text](https://miro.medium.com/max/700/1*Td7psaqT8PHzKeHo806XnQ.png "grid result")
+
+
+
 
 ## Mobile
 
