@@ -10,13 +10,8 @@ A curated list of needed tools when start a Front-end project
 ## Sizes scaling
 
 * [Min-Max-Value Interpolation calculator](https://min-max-calculator.9elements.com/) - _Create fluid scales for type and spacing_
-* ### Container with min() function :
-```css
-.container {
-  margin-inline: auto;
-  width: min(100% - 2rem, 1200px);
-}
-```
+* Container with min() function : `width: min(100% - 2rem, 1200px);`
+
 
 ## Reset/Normalize
 * [Normalize by @necola](https://github.com/necolas/normalize.css) - _A modern alternative to CSS resets_
