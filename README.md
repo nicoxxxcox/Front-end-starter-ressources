@@ -7,6 +7,10 @@ A curated list of needed tools when start a Front-end project
 * [Googlefonts](https://fonts.google.com/) - _CDN for fonts_
 * [System font stack](https://systemfontstack.com) - _Basic system font stacks_
 
+## Button
+
+* [Building a button component](https://web.dev/building-a-button-component/) - _A foundational overview of how to build color-adaptive, responsive, and accessible <button>button</button> components._
+
 ## Sizes scaling
 
 * [Min-Max-Value Interpolation calculator](https://min-max-calculator.9elements.com/) - _Create fluid scales for type and spacing_
