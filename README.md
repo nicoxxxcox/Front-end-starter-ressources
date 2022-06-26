@@ -5,6 +5,18 @@ A curated list of needed tools when start a Front-end project
 
 * [Transfonter](https://transfonter.org/) - _@fontface generator_
 * [Googlefonts](https://fonts.google.com/) - _CDN for fonts_
+* [System font stack](https://systemfontstack.com) - _Basic system font stacks_
+
+## Sizes scaling
+
+* [Min-Max-Value Interpolation calculator](https://min-max-calculator.9elements.com/) - _Create fluid scales for type and spacing_
+* ### Container with min() function :
+```css
+.container {
+  margin-inline: auto;
+  width: min(100% - 2rem, 1200px);
+}
+```
 
 ## Methodology
 
