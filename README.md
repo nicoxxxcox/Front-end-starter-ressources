@@ -46,6 +46,21 @@ It give :
 
 ![Alt text](https://miro.medium.com/max/700/1*Td7psaqT8PHzKeHo806XnQ.png "grid result")
 
+* Auto-grid all childs ⬇️ :
+```css
+--minColumnWidth: 22.5rem; /* 360px/16px */
+--grid-gap: 1rem;
+@media (min-width: var(minColumnWidth)){
+  .auto-grid {
+    display: grid;
+    grid-gap: var(--grid-gap) ;
+    grid--auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
+```
+
+
 
 # Mobile
 * [Dealing with hover on mobile (video)](https://www.youtube.com/watch?v=uuluAyw9AI0) - _We can't hover on mobile devices, so what can we do about hover animations and other things that we might need to have on laptops and desktops?_
