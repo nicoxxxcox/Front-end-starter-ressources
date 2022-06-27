@@ -33,17 +33,13 @@
 # Layouts
 * [Css layouts](https://csslayout.io/) - _Popular layouts and patterns made with CSS_
 * [Clever Grid system with grid](https://medium.com/@aparnamovva/12-modern-css-techniques-for-older-css-problems-df4d6d543fea#69cc) - _Replacing The Older Grid System_  ⬇️ :
-```scss
-$minColumnWidth: 22.5rem; // 360px/16px
-$grid-gap: 1rem;
+```css
+--minColumnWidth: 22.5rem; /* 360px/16px */
+--grid-gap: 1rem;
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax($minColWidth, 1fr));
-  grid-gap: $grid-gap ;
-  
-  & + .grid {
-    margin-top: $grid-gap;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(min(var(--minColWidth), 100%), 1fr));
+  grid-gap: var(--grid-gap) ;
 }
 ```
 It give : 
