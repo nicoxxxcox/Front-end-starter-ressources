@@ -60,7 +60,8 @@ It give :
 }
 ```
 
-
-
 # Mobile
 * [Dealing with hover on mobile (video)](https://www.youtube.com/watch?v=uuluAyw9AI0) - _We can't hover on mobile devices, so what can we do about hover animations and other things that we might need to have on laptops and desktops?_
+
+# Bugs
+* [Defensive CSS](https://defensivecss.dev/) - _Practical CSS and design tips that helps in building future-proof user interfaces._
